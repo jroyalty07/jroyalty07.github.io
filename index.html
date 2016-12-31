@@ -104,8 +104,10 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Job Recommendation Engine:<br>Client Project</h2>
+                    <p class="lead">A local start up asked for a job and skills recommendation engine to help give users an idea of what they can do to change their career. 
+
+The initial data was messy text data that needed heavy cleaning. Scrubbing was followed by TFIDF vectorization to extract relevant text features from job user job descriptions and skills for a user to user recommendation system. In this case we are comparing the text features between different unique job titles. The job titles are first clustered using agglomerative hierarchical clustering in order to loosely represent industries. A new user is assigned to a cluster using multinomial logistic regression and then recommended job titles from each of the clusters using cosine similarity comparison. We are also able to suggest the most common skills that other users with that job title have but that the user lacks.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/ipad.png" alt="">
